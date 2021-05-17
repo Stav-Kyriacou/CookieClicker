@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(86, 86, 86);
+}
+h1 {
+    color: white;
+    font-size: 36px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 400px;
+    background-color: rgb(25, 45, 140);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+h2 {
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 350px;
+    background-color: rgb(25, 45, 140);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+h4 {
+    font-size: 16px;
+    margin: auto;
+    margin-left: 20px;
+    padding: 3px;
+}
+h5 {
+    color: white;
+    font-size: 16px;
+}
+.outerbox {
+    background-color: indigo;
+    width: 1300px;
+    margin: auto;
+    min-height: 700px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 4px;
+}
+
+/* .innerbox {
+    
+} */
+
+.banner {   
+    border-bottom: 4px solid black;
+    background-image: url("images/CookieBannerImg.jpg");
+    min-height: 150px;
+    overflow: hidden; /*stops h1 from collapsing margin and pushing div out*/
+    text-align: center;
+}
+
+.flex-container { 
+    display: flex;
+    min-height: 550px;
+}
+/* .flex-container .div {
+    
+} */
+
+.ClickerSection {
+    background-image: url("images/CookieBgd.jpg");
+    min-width: 450px;
+    
+}
+
+.LogSection {
+    background-color: rgb(65, 71, 103);
+    min-width: 392px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    color: white;
+}
+.LogSection ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 5px 0px 0px 0px;
+}
+
+.UpgradeSection {
+    background-image: url("images/CookieBgd.jpg");
+    min-width: 450px;
+}
+.center {
+    text-align: center;
+}
+.CookieButton {
+    background-image: url("images/cookie.png");
+    min-width: 356px;
+    min-height: 315px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.CookieButton:active {
+    /* transform: translateY(4px); */
+    transform: scale(0.92);
+}
+.UpgradeButton {
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px;
+}
+.UpgradeButton:active {
+    transform: scale(0.92);
+}
+.UpgradeButtonContainer {
+    margin: auto;
+    margin: 20px;
+}

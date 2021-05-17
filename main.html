@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <link rel="stylesheet" href="style.css">
+</header>
+
+<body>
+    <div class="outerbox">
+        <div class="innerbox">
+            <div class="banner">
+                <h1>Cookie Clicker Game</h1>
+            </div>
+
+            <!--Display elements in a row-->
+            <div class="flex-container">
+                <div class="ClickerSection">
+                    <h2>Stav's Bakery</h2>
+                    <h2 id="CookieCount">Cookies: 0</h2>
+                    <div class="center">
+                        <button class="CookieButton" onclick="ClickCookie()"></button>
+                    </div>
+                </div>
+
+                <div class="LogSection">
+                    <h2>Statistics</h2>
+                    <h4 id="StatClickCount">Number of clicks: 0</h4>
+                    <h4 id="StatGameDuration">Game Duration (seconds): 0</h4>
+                    <h4 id="StatCookiesPerClick">Cookies Per Click: 1</h4>
+                    <h4>Number of upgrades: 0</h4>
+                    <h4>Total Cookies Earned : 0</h4>
+                    <h4>Total Cookies Spent: 0</h4>
+                    <h4>Game Duration: 0</h4>
+
+
+                    <h2>Log Section</h2>
+
+                    <div id="LogText">
+                        <ul id="LogUL">
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="UpgradeSection">
+                    <h2>Upgrade Section</h2>
+                    <div class="center">
+                        <div class="UpgradeButtonContainer">
+                            <h5 id="Upgrade1Text">Cost: 10</h5>
+                            <button class="UpgradeButton" onclick="BuyUpgrade1()">Upgrade 1</button>
+
+                            <h5>Cost: 100</h5>
+                            <button class="UpgradeButton" onclick="BuyUpgrade2()">Upgrade 2</button>
+
+                            <h5>Cost: 100</h5>
+                            <button class="UpgradeButton" onclick="BuyUpgrade3()">Upgrade 3</button>
+
+                            <h5>Cost: 100</h5>
+                            <button class="UpgradeButton" onclick="BuyUpgrade4()">Upgrade 4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+    <script src="cookie_clicker.js"></script>
+
+</html>
