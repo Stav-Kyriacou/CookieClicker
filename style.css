@@ -31,6 +31,7 @@ h4 {
 h5 {
     color: white;
     font-size: 16px;
+    margin: auto;
 }
 .outerbox {
     background-color: indigo;
@@ -75,6 +76,11 @@ h5 {
     border-left: 4px solid black;
     border-right: 4px solid black;
     color: white;
+}
+.LogSection ul {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .LogSection ul li {
     list-style: none;
